@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shinjan Saha ECE 13000322118</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+            background-color: #f5f5f5;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        h1 {
+            color: #333;
+            text-align: center;
+            border-bottom: 3px solid #007bff;
+            padding-bottom: 10px;
+        }
+        h2 {
+            color: #555;
+            margin-top: 30px;
+        }
+        .login-form {
+            background-color: #f8f9fa;
+            padding: 20px;
+            border-radius: 5px;
+            margin: 20px 0;
+            max-width: 400px;
+        }
+        .form-group {
+            margin-bottom: 15px;
+        }
+        label {
+            display: block;
+            margin-bottom: 5px;
+            font-weight: bold;
+        }
+        input[type="text"], input[type="password"] {
+            width: 100%;
+            padding: 10px;
+            border: 1px solid #ddd;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        button {
+            background-color: #007bff;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 16px;
+        }
+        button:hover {
+            background-color: #0056b3;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 12px;
+            text-align: left;
+        }
+        th {
+            background-color: #007bff;
+            color: white;
+        }
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+        .image-section {
+            text-align: center;
+            margin: 20px 0;
+        }
+        .image-section img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+        .links-section a {
+            display: inline-block;
+            margin: 10px;
+            color: #007bff;
+            text-decoration: none;
+            padding: 8px 16px;
+            border: 1px solid #007bff;
+            border-radius: 4px;
+            transition: all 0.3s;
+        }
+        .links-section a:hover {
+            background-color: #007bff;
+            color: white;
+        }
+        .frameset-note {
+            background-color: #fff3cd;
+            border: 1px solid #ffeaa7;
+            padding: 15px;
+            border-radius: 5px;
+            margin: 20px 0;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Shinjan Saha 13000322118</h1>
+        
+       
+        <h2>Image Example</h2>
+        <div class="image-section">
+            <img src="https://i.postimg.cc/zG2g9Rz3/temp-Imagef4ye-WM.avif" 
+                 alt="Sample placeholder image" 
+                 title="This is a sample image">
+            <p><em>Sample image with placeholder content</em></p>
+        </div>
+
+        
+        <h2>Hyperlink Examples</h2>
+        <div class="links-section">
+            <a href="https://www.google.com" target="_blank">Google</a>
+            <a href="https://github.com/Shinjan-saha" target="_blank">GitHub</a>
+            <a href="mailto:shinjansaha02@gmail.com">Send Email</a>
+            <a href="tel:+91 7595868257">Call Us</a>
+            <a href="https://shinjansaha0424.tech">My Portfolio Website</a>
+            <a href="#login-section">Go to Login Form</a>
+        </div>
+
+
+        <h2>Data Table Example</h2>
+        <table>
+            <thead>
+                <tr>
+                    <th>Product</th>
+                    <th>Category</th>
+                    <th>Price</th>
+                    <th>Stock</th>
+                    <th>Rating</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Laptop Pro</td>
+                    <td>Electronics</td>
+                    <td>₹12999.99</td>
+                    <td>15</td>
+                    <td>4.8/5</td>
+                </tr>
+                <tr>
+                    <td>Wireless Mouse</td>
+                    <td>Accessories</td>
+                    <td>₹290.99</td>
+                    <td>50</td>
+                    <td>4.5/5</td>
+                </tr>
+                <tr>
+                    <td>Office Chair</td>
+                    <td>Furniture</td>
+                    <td>₹19999.99</td>
+                    <td>8</td>
+                    <td>4.2/5</td>
+                </tr>
+                <tr>
+                    <td>Coffee Maker</td>
+                    <td>Appliances</td>
+                    <td>₹899.99</td>
+                    <td>22</td>
+                    <td>4.6/5</td>
+                </tr>
+                <tr>
+                    <td>Smartphone</td>
+                    <td>Electronics</td>
+                    <td>₹6999.99</td>
+                    <td>30</td>
+                    <td>4.7/5</td>
+                </tr>
+            </tbody>
+        </table>
+
+      
+<h2 id="login-section">Login Form</h2>
+<div class="login-form">
+    <form onsubmit="handleLogin(event)">
+        <div class="form-group">
+            <label for="username">Username:</label>
+            <input type="text" id="username" name="username" required 
+                   placeholder="Enter your username">
+        </div>
+        
+        <div class="form-group">
+            <label for="password">Password:</label>
+            <input type="password" id="password" name="password" required 
+                   placeholder="Enter your password">
+            <input type="checkbox" id="showPassword" onclick="togglePassword()"> Show Password
+        </div>
+        
+        <button type="submit">Login</button>
+        <button type="button" onclick="clearForm()" style="margin-left: 10px; background-color: #6c757d;">Clear</button>
+    </form>
+</div>
+
+
+
+
+       
+        <h2>Frameset Information</h2>
+        <div class="frameset-note">
+            <p><strong>Note about Framesets:</strong> The HTML <code>&lt;frameset&gt;</code> element has been deprecated in modern HTML5 and is no longer supported by most browsers. Framesets were used to divide a browser window into multiple sections, each displaying different HTML documents.</p>
+            
+            <p><strong>Historical Frameset Example (deprecated):</strong></p>
+            <pre style="background-color: #f8f9fa; padding: 10px; border-radius: 4px; overflow-x: auto;">
+&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;frameset cols="25%,75%"&gt;
+    &lt;frame src="navigation.html" name="nav"&gt;
+    &lt;frame src="content.html" name="main"&gt;
+&lt;/frameset&gt;
+&lt;/html&gt;</pre>
+
+            <p><strong>Modern Alternative:</strong> Today, we use CSS Grid, Flexbox, or iframe elements to achieve similar layouts in a more accessible and responsive way.</p>
+        </div>
+
+       
+        <div style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #ddd; text-align: center; color: #666;">
+            <p>&copy; 2025 Shinjan Saha. This demonstrates various HTML elements including images, hyperlinks, tables, forms, and login fields.</p>
+        </div>
+    </div>
+
+    <script>
+        function handleLogin(event) {
+            event.preventDefault();
+            const username = document.getElementById('username').value;
+            const password = document.getElementById('password').value;
+            
+            if (username && password) {
+                alert(`Login attempted for user: ${username}\nPassword length: ${password.length} characters\n\n(This is just a demo - no actual authentication occurs)`);
+            }
+        }
+
+        function clearForm() {
+            document.getElementById('username').value = '';
+            document.getElementById('password').value = '';
+        }
+
+        function togglePassword() {
+    const passwordInput = document.getElementById("password");
+    const showPasswordCheckbox = document.getElementById("showPassword");
+    
+    if (showPasswordCheckbox.checked) {
+        passwordInput.type = "text";
+    } else {
+        passwordInput.type = "password";
+    }
+}
+    </script>
+</body>
+</html>
