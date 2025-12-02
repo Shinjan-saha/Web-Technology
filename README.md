@@ -14,6 +14,7 @@ AWT/
 │── RadioButtonExample.java
 │── GraphicsExample.java
 │── LoginForm.java
+|-- BorderLayoutExample.java
 │── (Compiled *.class files)
 
 Portfolio/
@@ -79,6 +80,27 @@ Implements a simple **Login Form** using TextField, Label, Button, and event han
 - Demonstrates form creation  
 - Shows how to read text inputs  
 - Example of basic GUI-based authentication systems
+
+---
+
+## 6. **BorderLayoutExample.java**
+**Purpose:**  
+Demonstrates the use of the **BorderLayout** manager in AWT by placing five buttons in different regions of the layout.
+
+**Significance:**  
+- Introduces the **BorderLayout** layout manager  
+- Shows how GUI components can be arranged in the regions:  
+  - `NORTH`  
+  - `SOUTH`  
+  - `EAST`  
+  - `WEST`  
+  - `CENTER`  
+- Useful for designing structured and organized UI layouts  
+- Teaches how layout managers control component positioning in AWT  
+
+**What it does:**  
+Creates a window with buttons placed in each region of the BorderLayout, helping visualize how the layout distributes space.
+
 
 ---
 
