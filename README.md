@@ -37,6 +37,8 @@ Shows how to create a window with a **Button** and handle **ActionEvent** when t
 - Introduces event-driven programming  
 - Shows how user interaction works in AWT  
 
+<img height="300" width ="450" src="https://i.postimg.cc/Hkq7t3Dg/Button.png">
+
 ---
 
 ## 2. **CheckboxExample.java**
@@ -47,6 +49,8 @@ Displays multiple **Checkbox components** (multi-select), each with an event lis
 - Demonstrates checkboxes  
 - Shows how to capture user selections  
 - Builds understanding of `ItemListener`
+
+<img height="300" width ="450" src="https://i.postimg.cc/wTtvbJkX/checkbar.png">
 
 ---
 
@@ -59,6 +63,9 @@ Uses `CheckboxGroup` to create **radio-button-like behavior** (single selection 
 - Useful for forms (e.g., gender, options)  
 - Demonstrates `CheckboxGroup` usage
 
+
+<img height="300" width ="450" src="https://i.postimg.cc/8c719QLT/radio.png">
+
 ---
 
 ## 4. **GraphicsExample.java**
@@ -70,6 +77,9 @@ Shows how to draw shapes (lines, rectangles, circles, text) using the **Graphics
 - Teaches how painting works in AWT  
 - Foundation for making graphical tools, charts, and games
 
+
+<img height="300" width ="450" src="https://i.postimg.cc/QdGX4zt4/graphics.png">
+
 ---
 
 ## 5. **LoginForm.java**
@@ -80,6 +90,8 @@ Implements a simple **Login Form** using TextField, Label, Button, and event han
 - Demonstrates form creation  
 - Shows how to read text inputs  
 - Example of basic GUI-based authentication systems
+
+<img height="300" width ="450" src="https://i.postimg.cc/Pq6JRM0C/login.png">
 
 ---
 
@@ -101,6 +113,7 @@ Demonstrates the use of the **BorderLayout** manager in AWT by placing five butt
 **What it does:**  
 Creates a window with buttons placed in each region of the BorderLayout, helping visualize how the layout distributes space.
 
+<img height="300" width ="450" src="https://i.postimg.cc/W3C321Nk/border.png">
 
 ---
 
@@ -141,6 +154,13 @@ Styled header, section organization, and clean layout.
 - Shows real-world AWT usage  
 - Useful as an academic project / portfolio showcase  
 - Teaches combining menus, panels, layouts, scrollbars, and dialogs  
+
+---
+
+
+## Working
+
+![Demo](working.gif)
 
 ---
 
