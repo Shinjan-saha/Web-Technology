@@ -160,7 +160,7 @@ Styled header, section organization, and clean layout.
 
 ## Working
 
-![Demo](working.gif)
+![Demo](project.gif)
 
 ---
 
