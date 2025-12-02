@@ -64,7 +64,7 @@ Uses `CheckboxGroup` to create **radio-button-like behavior** (single selection 
 - Demonstrates `CheckboxGroup` usage
 
 
-<img height="300" width ="450" src="https://i.postimg.cc/8c719QLT/radio.png">
+<img height="300" width ="450" src="./images/radio.png">
 
 ---
 
@@ -78,7 +78,7 @@ Shows how to draw shapes (lines, rectangles, circles, text) using the **Graphics
 - Foundation for making graphical tools, charts, and games
 
 
-<img height="300" width ="450" src="https://i.postimg.cc/QdGX4zt4/graphics.png">
+<img height="300" width ="450" src="./images/graphics.png">
 
 ---
 
