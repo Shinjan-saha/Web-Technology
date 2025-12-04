@@ -20,7 +20,13 @@ AWT/
 Portfolio/
 │── PortfolioApp.java
 │── (Compiled *.class files)
+
+
+Math/
+│── MainApp.java
+│── (Compiled *.class files)
 ```
+
 
 Each Java file demonstrates a different concept in AWT.
 
@@ -50,7 +56,7 @@ Displays multiple **Checkbox components** (multi-select), each with an event lis
 - Shows how to capture user selections  
 - Builds understanding of `ItemListener`
 
-<img height="300" width ="450" src="https://i.postimg.cc/wTtvbJkX/checkbar.png">
+<img height="300" width ="450" src="./images/checkbar.png">
 
 ---
 
@@ -91,7 +97,7 @@ Implements a simple **Login Form** using TextField, Label, Button, and event han
 - Shows how to read text inputs  
 - Example of basic GUI-based authentication systems
 
-<img height="300" width ="450" src="https://i.postimg.cc/Pq6JRM0C/login.png">
+<img height="300" width ="450" src="./images/login.png">
 
 ---
 
@@ -162,6 +168,13 @@ Styled header, section organization, and clean layout.
 
 ![Demo](project.gif)
 
+---
+
+
+
+# Math (Math/MainApp.java)
+
+### To create custom package for Java using easy example 
 ---
 
 # 🛠️ How to Run the Programs
